@@ -1,0 +1,75 @@
+body {
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">;
+    font-family: 'Poppins', sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    background: #232323;
+  }
+  header {
+    color: #aaaaaa;
+  }
+  h1 {
+    font-size: 70px;
+    margin: 40px 10px -10px 10px;
+  }
+  label {
+    
+  }
+  #title {
+    
+  }
+  p {
+    
+  }
+  #description {
+    font-size: 24px;
+  }
+  form {
+    
+  }
+  #survey-form {
+    max-width: 100%;
+    background: #aaaaaa;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  #name-label {
+    font-size: 18px;
+  }
+  #email-label {
+    font-size: 18px;
+  }
+  #number-label {
+    font-size: 18px;
+  }
+  #dropdown {
+    font-size: 14px;
+  }
+  textarea {
+     margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  #comments {
+    
+  }
+  button {
+    border: none;
+  }
+  .submit-button {
+    display: block;
+    width: 37%;
+    padding: 10px;
+    background: #232323;
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .input-textarea {
+    min-height: 120px;
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #232323;
+  }
