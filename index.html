@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Trump Survey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+  <h1 id="title">Trump Survey</h1>
+
+  <p id="description">Please provide honest feedback</p>
+  </header>
+  <form id="survey-form">
+
+    <label id="name-label" for="name">Name</label>
+    <input type="text" name="name" id="name" placeholder="enter your name" required /><br /><br />
+    
+    <label id="email-label" for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="enter your email" required /><br /><br />
+    
+    <label id="number-label" for="number">Age</label>
+    <input type="number" id="number" name="number" placeholder="age" required min="18" max="1000" /><br /><br />
+    
+    <p>Which option best describes your level of education?</p>
+    <select id="dropdown" required>
+      <option disabled selected value>select education level</option>
+      <option>No HS Diploma</option>
+      <option>HS Diploma</option>
+      <option>Some College</option>
+      <option>BA/BS</option>
+      <option>Masters</option>
+      <option>PhD</option>
+    </select><br /><br />
+    <p>How do you think President Trump is doing?</p>
+    <label>
+      <input name="approval-radio" value="good" type="radio" />Good</label><br />
+    <label>
+      <input name="approval-radio" value="bad" type="radio" />Bad</input><br />
+
+      <label>
+        <input name="approval-radio" value="undecided" type="radio" />Undecided</label><br /><br />
+
+      <p>What would you like to see improved? <small>(Check all that apply)</small></p>
+      <label>
+        <input value="economy" type="checkbox" class="input-checkbox" />Economy</label><br />
+      <label>
+        <input value="environmental" type="checkbox" class="input-checkbox" />Environmental</label><br />
+      <label>
+        <input value="homelessness" type="checkbox" class="input-checkbox" />Homelessness</label><br />
+      <label>
+        <input value="foreign affairs" type="checkbox" class="input-checkbox" />Foreign Affairs</label><br />
+      <label>
+        <input value="nothing. he is doing great!" type="checkbox" class="input-checkbox" />Nothing. He's doing great!</label><br />
+
+      <p>Anything else you would like to add?</p>
+      <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comments here.." /></textarea><br />
+
+  <button type="submit" id="submit" class="submit-button"><b>Submit</b></button>
+
+  </form>
+
+</body>
